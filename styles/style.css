@@ -237,9 +237,9 @@
 }
 
 .Run_an {
-    margin-left: 200px;
+    margin-left: 230px;
     width: 1020px;
-    height: 371px;
+    height: 341px;
     align-items: center;
     border-radius: 18px;
     background: rgb(34, 34, 34);
@@ -270,6 +270,9 @@
 .run_pic img {
     /* transform: */
     width: 100%;
+    border-radius: 10px;
+    /* width: 366px;
+height: 312px; */
     /* transform: scale(2); */
 }
 
