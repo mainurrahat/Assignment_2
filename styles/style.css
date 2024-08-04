@@ -65,6 +65,18 @@
     height: 54px;
     /* border: none; */
 
+} 
+@media screen and (max-width:576px) {
+    .home_btn{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .home_btn a {
+        padding: 10px 12px;  /* Reduce padding for smaller screens */
+        font-size: 14px;     /* Adjust font size */
+    }
+
 }
 
 .banner {
@@ -98,6 +110,7 @@
 
 
 }
+
 
 .link_r {
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -323,7 +336,9 @@ height: 312px; */
 
 @media screen and (max-width:576px) {
     .Run_an {
-        width: 480px;
+        /* border: 2px solid brown; */
+        margin-top: 1rem;
+        width: 450px;
         height: 531px;
         margin-left: -0rem;
         flex-direction: column;
@@ -425,7 +440,7 @@ height: 312px; */
 
 @media screen and (max-width:576px) {
     .Calculate {
-        width: 480px;
+        width:480px;
         flex-direction: column;
 
     }
