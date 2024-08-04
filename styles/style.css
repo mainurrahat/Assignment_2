@@ -45,7 +45,7 @@
 .btn1 {
     font-size: 18px;
     background: rgb(230, 83, 60);
-    border-radius: 15px;
+    border-radius: 30px;
     text-align: center;
     color: white;
     width: 12rem;
@@ -185,7 +185,20 @@
 @media screen and (max-width:576px) {
     .banner {
         flex-direction: column;
+        margin-left: 6rem;
     }
+
+    .Get_body_in {
+        margin-left: -20rem;
+    }
+
+    .pic_manush {
+        margin-top: -10rem;
+        margin-left: -1rem;
+    }
+
+
+
 
 }
 
@@ -195,6 +208,13 @@
 
 .havit {
     text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .change_your_habits {
+        padding-top: 1rem;
+
+    }
 }
 
 .ora_4jon {
@@ -219,6 +239,19 @@
 
 .be_fit {
     text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .ora_4jon {
+        flex-direction: column;
+        /* border-right: 50000rem; */
+        /* margin-right: */
+
+
+
+    }
+
+    .round {}
 }
 
 .Mile_Easily_con {
@@ -249,6 +282,7 @@
 
 }
 
+
 .anyone {
     padding-left: 54px;
 }
@@ -276,6 +310,25 @@ height: 312px; */
     /* transform: scale(2); */
 }
 
+@media screen and (max-width:576px) {
+    .Run_an {
+        width: 480px;
+        height: 531px;
+        margin-left: -0rem;
+        flex-direction: column;
+    }
+
+    .Mile_Easily_con {
+        margin-top: 0rem;
+    }
+
+    .run_pic {
+        margin-top: 2rem;
+    }
+
+}
+
+
 .BMI {
     text-align: center;
 }
@@ -284,6 +337,13 @@ height: 312px; */
     font-size: 48px;
     font-weight: 900;
 }
+
+@media screen and (max-width:576px) {
+    .BMI {
+        margin-left: 1rem;
+    }
+}
+
 
 .BMI_likha {
     font-size: 16px;
@@ -352,6 +412,42 @@ height: 312px; */
 
 }
 
+@media screen and (max-width:576px) {
+    .Calculate {
+        width: 480px;
+        flex-direction: column;
+
+    }
+
+    .gridd_part {
+        margin-top: 3rem;
+        margin-left: 3rem;
+
+    }
+
+    .gridd_part2 {
+        margin-top: 3rem;
+        margin-left: 3rem;
+        /* margin-right: 5rem; */
+    }
+
+    .Bmi_input {
+        width: 140px;
+    }
+
+    .Bmi_input_sex {
+        width: 200px;
+    }
+
+    .Bmi_input_activity {
+        width: 415px;
+    }
+
+    .btn_cal_edit {
+        margin-bottom: 2rem;
+    }
+}
+
 hr {
     margin: 0px;
 }
@@ -372,6 +468,7 @@ hr {
 
 .btn_cal_edit {
     margin-top: 2rem;
+
 }
 
 .Meet {
@@ -449,6 +546,59 @@ hr {
     left: 750px;
 }
 
+@media screen and (max-width:576px) {
+    .traine_pic_container {
+        margin-left: 5rem;
+
+        width: 370px;
+        height: 1800px;
+        /* flex-direction: column; */
+    }
+
+    .trainer_pic_con {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .Jerome {
+        position: absolute;
+        bottom: 1450px;
+        left: 30px;
+    }
+
+    .Cameron {
+        position: absolute;
+        bottom: 1150px;
+        left: 30px;
+    }
+
+    .Darrell {
+        position: absolute;
+        bottom: 880px;
+        left: 30px;
+    }
+
+    .Dianne {
+        position: absolute;
+        bottom: 580px;
+        left: 30px;
+    }
+
+    .Cody {
+        position: absolute;
+        bottom: 280px;
+        left: 30px;
+    }
+
+    .Theresa {
+        position: absolute;
+        bottom: 1px;
+        left: 30px;
+    }
+
+
+}
+
 .foot {
     margin-top: 20px;
     background: rgba(255, 255, 255, 0.1);
@@ -501,4 +651,15 @@ hr {
 .right {
     text-align: center;
     padding-top: 20px;
+}
+
+.creative {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    align-items: center;
+    width: 1090px;
+    height: 350px;
+    margin-left: 200px;
+
 }
