@@ -197,6 +197,16 @@
         margin-left: -1rem;
     }
 
+    .free {
+        margin-top: -330px;
+        margin-left: 210px;
+    }
+
+    .circle_home {
+        margin-top: -250px;
+        margin-left: -80px;
+    }
+
 
 
 
@@ -212,8 +222,7 @@
 
 @media screen and (max-width:576px) {
     .change_your_habits {
-        padding-top: 1rem;
-
+        padding-top: 5rem;
     }
 }
 
@@ -243,6 +252,7 @@
 
 @media screen and (max-width:576px) {
     .ora_4jon {
+        border: 2px solid blue;
         flex-direction: column;
         /* border-right: 50000rem; */
         /* margin-right: */
@@ -251,7 +261,8 @@
 
     }
 
-    .round {}
+
+    /* .round {} */
 }
 
 .Mile_Easily_con {
@@ -599,6 +610,16 @@ hr {
 
 }
 
+@media screen and (max-width:576px) {
+    .creative {
+        border: 1px solid blue;
+        margin-left: 55rem;
+
+    }
+
+
+}
+
 .foot {
     margin-top: 20px;
     background: rgba(255, 255, 255, 0.1);
@@ -661,5 +682,28 @@ hr {
     width: 1090px;
     height: 350px;
     margin-left: 200px;
+
+}
+
+
+@media screen and (max-width:576px) {
+    .foot {
+        height: 51rem;
+        width: 30rem;
+        flex-direction: column;
+    }
+
+    .f {
+        margin-top: 0px;
+    }
+
+    .foot_fitness {
+        border-radius: 5px;
+        /* border: 1px solid blue; */
+        margin-top: 1px;
+        margin-left: 2rem;
+
+    }
+
 
 }
