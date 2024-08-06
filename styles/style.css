@@ -65,16 +65,19 @@
     height: 54px;
     /* border: none; */
 
-} 
+}
+
 @media screen and (max-width:576px) {
-    .home_btn{
+    .home_btn {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .home_btn a {
-        padding: 10px 12px;  /* Reduce padding for smaller screens */
-        font-size: 14px;     /* Adjust font size */
+        padding: 10px 12px;
+        /* Reduce padding for smaller screens */
+        font-size: 14px;
+        /* Adjust font size */
     }
 
 }
@@ -437,10 +440,14 @@ height: 312px; */
     grid-column: span 2;
 
 }
+.gridd_part {
+    
+    padding-top: 2rem;
 
+}
 @media screen and (max-width:576px) {
     .Calculate {
-        width:480px;
+        width: 480px;
         flex-direction: column;
 
     }
@@ -448,6 +455,7 @@ height: 312px; */
     .gridd_part {
         margin-top: 3rem;
         margin-left: 3rem;
+       
 
     }
 
