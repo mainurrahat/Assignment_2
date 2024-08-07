@@ -247,8 +247,6 @@
     padding-top: 4rem;
     padding-left: 16rem;
     padding-right: 16rem;
-
-
     justify-content: center;
     gap: 5rem;
 }
@@ -272,10 +270,10 @@
         flex-direction: column;
         /* border-right: 50000rem; */
         /* margin-right: */
-
-
-
     }
+    /* .first_jon{
+        padding-left: -800rem;
+    } */
 
 
     /* .round {} */
