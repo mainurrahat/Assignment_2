@@ -6,6 +6,12 @@
     src: url (' ');
 
 } */
+@media screen and (min-width:576px) {
+    .menu {
+        display: none;
+    }
+}
+
 .fa-solid {
     /* border: 2px solid blue; */
     /* padding-bottom: 50px; */
@@ -19,7 +25,7 @@
     /* padding-bottom: 250px; */
     /* padding-top: ; */
     /* border: 5px solid salmon; */
-    padding-left: 525px;
+    /* padding-left: 525px; */
 }
 
 .fa-solidd {
@@ -121,10 +127,30 @@
         /* Adjust font size */
     }
 
-    .link_r {
-        /* border: 5px solid whitesmoke; */
-        flex-direction: column;
+    .main_jinis {
+        margin: 0 auto;
+    }
 
+    .link_r {
+        /* border: 5px solid blue; */
+        /* display: none; */
+        /* flex-direction: column; */
+        display: none;
+
+    }
+
+    .gayeb {
+        display: none;
+    }
+
+    .fa-solid {
+        padding-top: 25px;
+
+    }
+
+    .Fitness {
+        /* border: 5px solid salmon; */
+        /* padding-left: px; */
     }
 
 
@@ -163,17 +189,18 @@
 
 }
 
+@media screen and (min-width:576px) {
+    .link_r {
+        border: 1px solid rgba(255, 255, 255, 0.1);
 
-.link_r {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding-left: 0px;
 
-    border-radius: 20px;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding-left: 0px;
-
+    }
 }
 
 .shape {
@@ -253,10 +280,10 @@
     padding-right: 100px;
 }
 
-.fa-solid1 {
+/* .fa-solid1 {
     /* border: 2px solid salmon; */
-    width: 30px;
-}
+/* width: 30px; */
+/* }  */
 
 /* bannar part responsive korbo ekn */
 @media screen and (max-width:576px) {
@@ -274,19 +301,19 @@
         margin-left: -20rem;
     }
 
-    .fa-solid {
+    /* .fa-solid {
         /* border: 2px solid blue; */
-        /* padding-bottom: 50px; */
-        /* padding-left: 2rem;
+    /* padding-bottom: 50px; */
+    /* padding-left: 2rem;
         padding-top: 1rem; */
-        /* margin-left: 0px; */
-        width: auto;
+    /* margin-left: 0px; */
+    /* width: auto;
         padding-left: 0px;
         padding-top: 50px;
         padding-right: 10rem;
-        padding-bottom: ;
+        padding-bottom: ; */
 
-    }
+    /* } */
 
     .pic_manush {
         /* width: 100%; */
