@@ -12,7 +12,22 @@
     /* padding-top: 300px;
    
     padding-right:150px; */
-    padding-left: 600px;
+
+    /* width: 1px;
+    padding-left: -20px;
+    padding-top: 0px;
+    /* padding-bottom: 250px; */
+    /* padding-top: ; */
+    /* border: 5px solid salmon; */
+    padding-left: 525px;
+}
+
+.fa-solidd {
+    align-items: center;
+}
+
+.fa-play {
+    /* padding-top: 50px; */
 }
 
 .shape {
@@ -117,7 +132,7 @@
 
 .banner {
     display: flex;
-    gap: 12rem;
+    gap: 1rem;
 }
 
 .video500 {
@@ -234,15 +249,20 @@
 
 .pic_manush {
     /* width: 100%; */
+    padding-top: 0rem;
     padding-right: 100px;
 }
 
 .fa-solid1 {
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
+    width: 30px;
 }
 
 /* bannar part responsive korbo ekn */
 @media screen and (max-width:576px) {
+    .free {
+        width: 150px;
+    }
 
     .banner {
         flex-direction: column;
@@ -279,8 +299,14 @@
     }
 
     .circle_home {
+        width: 150px;
         margin-top: -250px;
         margin-left: -80px;
+    }
+
+    .Video_tutorial_350 {
+        /* width: 55px; */
+
     }
 
 
@@ -418,6 +444,7 @@ height: 312px; */
         margin-left: -0rem;
         flex-direction: column;
         padding-left: rem;
+        margin: 0 auto;
     }
 
     .Mile_Easily_con {
@@ -528,6 +555,7 @@ height: 312px; */
         width: 465px;
         flex-direction: column;
         border-radius: 10px;
+        margin: 0 auto;
 
     }
 
@@ -541,6 +569,7 @@ height: 312px; */
     .gridd_part2 {
         margin-top: 3rem;
         margin-left: 3rem;
+        margin: 0 auto;
         /* margin-right: 5rem; */
     }
 
@@ -558,7 +587,7 @@ height: 312px; */
     }
 
     .Bmi_input_activity {
-        width: 415px;
+        width: 410px;
     }
 
     .btn_cal_edit {
@@ -732,6 +761,8 @@ hr {
 
     .Bmi_input {
         /* border: 5px dotted blue; */
+        /* padding-left: 400px ; */
+        /* margin:0 auto; */
 
 
     }
@@ -742,8 +773,11 @@ hr {
 
     .pari {
         /* border: 5px dotted blue; */
-        padding-left: 50px;
-        width: 100px;
+        /* padding-left: px; */
+        width: auto;
+        margin: 0 auto;
+        /* align-items: center; */
+
     }
 
     .Bmi_inputt {}
