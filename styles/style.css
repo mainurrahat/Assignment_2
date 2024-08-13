@@ -6,16 +6,18 @@
     src: url (' ');
 
 } */
- .fa-solid{
+.fa-solid {
     /* border: 2px solid blue; */
     /* padding-bottom: 50px; */
-    padding-top: 300px;
-    padding-left: 0px;
-    padding-right:150px;
- }
-.shape{
+    /* padding-top: 300px;
+   
+    padding-right:150px; */
+    padding-left: 600px;
+}
+
+.shape {
     font-family: 'real_miami';
-  }
+}
 
 /*   
 * {
@@ -109,7 +111,7 @@
         flex-direction: column;
 
     }
-    
+
 
 }
 
@@ -207,7 +209,7 @@
     border-radius: 20px;
     background-color: red;
     border: none;
-    
+
     /* position: absolute; */
 
 
@@ -229,9 +231,14 @@
     padding: 10px;
 
 }
+
 .pic_manush {
     /* width: 100%; */
-   padding-right: 100px;
+    padding-right: 100px;
+}
+
+.fa-solid1 {
+    border: 2px solid salmon;
 }
 
 /* bannar part responsive korbo ekn */
@@ -246,13 +253,18 @@
         padding-top: 10px;
         margin-left: -20rem;
     }
-    .fa-solid{
+
+    .fa-solid {
         /* border: 2px solid blue; */
         /* padding-bottom: 50px; */
-        padding-left: 2rem;
-        padding-top: 1rem;
-        
-     }
+        /* padding-left: 2rem;
+        padding-top: 1rem; */
+        /* margin-left: 0px; */
+        padding-left: 0px;
+        padding-top: 5px;
+        padding-right: 10rem;
+
+    }
 
     .pic_manush {
         /* width: 100%; */
