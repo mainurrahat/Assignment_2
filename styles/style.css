@@ -444,7 +444,7 @@
     height: 312px;
     width: 366px;
     padding-right: 20px;
-    /* transform: scale(2); */
+    transform: scale(1);
     /* display: inline-block; */
     /* transition: transform 0.3s ease-in-out; */
     /* all .2s ease; */
@@ -458,8 +458,9 @@
     width: 100%;
     border-radius: 10px;
     /* width: 366px;
-height: 312px; */
+  height: 312px; */
     /* transform: scale(2); */
+
 }
 
 @media screen and (max-width:576px) {
@@ -647,6 +648,12 @@ hr {
 
 .Meet {
     text-align: center;
+    /* padding-top: 400px; */
+}
+
+.Meet2 {
+    padding-top: 430px;
+    /* margin-top: 500px; */
 }
 
 .meet_font {
@@ -801,13 +808,17 @@ hr {
     .pari {
         /* border: 5px dotted blue; */
         /* padding-left: px; */
-        width: auto;
-        margin: 0 auto;
+        /* width: auto; */
+        /* margin: 0 auto; */
         /* align-items: center; */
+        margin-left: 5px;
+
 
     }
 
-    .Bmi_inputt {}
+    .Bmi_inputt {
+        /* padding-left: px; */
+    }
 
 
 }
@@ -877,6 +888,69 @@ hr {
 
 }
 
+.utuve {
+
+    position: relative;
+    overflow: hidden;
+    height: 1150px;
+    /* width: 1000px; */
+
+    /* height: 100%; */
+}
+
+.utuve iframe {
+    position: absolute;
+
+    /* width: 100%;
+    height: 100%; */
+    /* width:5600px;
+    height:3150px; */
+    width: 560px;
+    height: 315px;
+    padding-left: 280px;
+}
+
+.Look {
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 350px;
+    padding-top: 5px;
+    font-weight: 800;
+    font-size: 28px;
+
+}
+
+@media screen and (max-width:576px) {
+    .utuve {
+        /* border: 2px solid blue; */
+        /* padding-left:0px; */
+        /* border left: 1px; */
+        /* margin-left: 0px; */
+        /* margin-left: 5px; */
+        padding-top: 50px;
+        /* height: 50px;
+        width: max-content; */
+        /* width: 40%; */
+        /* height: 100%; */
+        /* position: relative; */
+        /* width:400px */
+        /* height="315" */
+
+    }
+
+    .utuve iframe {
+        padding-left: 10px;
+        width: 450px;
+        height: 200px;
+        /* border: 5px solid salmon; */
+    }
+
+    .Look {
+        padding-left: 40px;
+        font-size: 18;
+    }
+
+}
 
 @media screen and (max-width:576px) {
     .foot {
@@ -906,6 +980,58 @@ hr {
 
 }
 
-.pari {
-    padding-left: 190px;
+@media screen and (min-width:577px) {
+    .pari {
+        /* padding-left: 190px; */
+        margin-left: 200px;
+    }
+}
+
+
+.courses_container {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    align-items: center;
+    width: 1090px;
+    height: 400px;
+    margin-left: 0px;
+    /* padding-top: px; */
+}
+
+.courses_container h1 {
+    padding-left: 20px;
+}
+
+.courses_container p {
+    padding-left: 20px;
+}
+
+.courses_container b {
+    padding-left: 20px;
+}
+
+
+.courses_heading {
+    text-align: center;
+
+}
+
+.inshallah {
+    /* text; */
+}
+
+.not_first {
+    color: blue;
+    font-size: 18px;
+}
+
+@media screen and (max-width:576px) {
+    .courses_container {
+        margin: 0 auto;
+        /* border: 5px solid salmon; */
+        width: 400px;
+        height: 500px;
+        /* flex-direction: column; */
+    }
 }
