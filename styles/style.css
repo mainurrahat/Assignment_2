@@ -10,7 +10,33 @@
     .menu {
         display: none;
     }
+
+    .barta {
+        padding-left: 500px;
+    }
+    .vai{
+        display: none;
+    }
 }
+
+@media screen and (max-width:576px) {
+
+    .barta {
+        display: none;
+    }
+
+    .vai {
+        /* border: 5px solid wheat; */
+        /* padding-top: 0px; */
+    }
+    .menu {
+      padding-top: 25px;
+    }
+}
+
+@media screen and (max-width:576px) {}
+
+
 
 .fa-solid {
     /* border: 2px solid blue; */
@@ -29,7 +55,8 @@
 }
 
 .fa-solidd {
-    align-items: center;
+   
+    /* align-items: center; */
 }
 
 .fa-play {
@@ -144,7 +171,7 @@
     }
 
     .fa-solid {
-        padding-top: 25px;
+        /* padding-top: 25px; */
 
     }
 
