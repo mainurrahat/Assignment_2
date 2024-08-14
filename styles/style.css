@@ -14,7 +14,8 @@
     .barta {
         padding-left: 500px;
     }
-    .vai{
+
+    .vai {
         display: none;
     }
 }
@@ -29,8 +30,9 @@
         /* border: 5px solid wheat; */
         /* padding-top: 0px; */
     }
+
     .menu {
-      padding-top: 25px;
+        padding-top: 25px;
     }
 }
 
@@ -55,7 +57,7 @@
 }
 
 .fa-solidd {
-   
+
     /* align-items: center; */
 }
 
@@ -176,8 +178,11 @@
     }
 
     .Fitness {
+
         /* border: 5px solid salmon; */
+        /* margin: 0 auto; */
         /* padding-left: px; */
+        /* margin-left: -5px; */
     }
 
 
